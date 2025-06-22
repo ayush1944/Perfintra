@@ -6,7 +6,6 @@ const userSchema = new mongoose.Schema({
   password: { type: String, required: true },
   preferences: {
     currency: { type: String, default: 'INR' },
-    theme: { type: String, default: 'light' }
   }
 }, { timestamps: true });
 
